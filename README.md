@@ -1,2 +1,2 @@
 # digiwall
-Digital signgate made with wordpress
+Digital signage made with wordpress
