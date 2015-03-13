@@ -1,0 +1,106 @@
+body {
+
+}
+.telas-modelo {
+	width: 100%;
+	background: #f2f2f2;
+	overflow:auto;
+	text-align: center;
+    -webkit-box-sizing: border-box;
+   	-moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+	.telas-media {
+
+		-webkit-box-sizing: border-box;
+	   	-moz-box-sizing: border-box;
+	    box-sizing: border-box;
+		border-collapse: collapse;
+		position: relative;
+		text-align: center;
+		background: #fff;
+		overflow: hidden;
+		text-align: center;		
+
+		img {
+			z-index: 1;
+			position: absolute;
+			left:0px;
+		}
+		.telas-media-controles {
+			position: absolute;
+			right:15px;
+			top:15px;
+			z-index: 999;
+			a {
+				display: block;
+			}
+		}
+	}
+}
+//
+// Layout 2 split
+//
+
+.telas-media-dois-esquerda {
+	width: 50%;
+	float: left;
+	min-height:450px;
+	height:auto;
+	img {
+		width:100%;
+		height: auto;
+	}
+}
+.telas-media-dois-direita {
+	width: 50%;
+	float: right;	
+	min-height:450px;
+	height:auto;
+	img {
+		width:100%;
+	}
+}
+//
+// Layout 3 colunas
+//
+
+.telas-media-tres {
+	width: 33.3%;
+	float: left;
+	min-height: 300px;
+}
+
+// 
+// Layout split vertical direita
+// 
+.telas-modelo-dois-split {
+	.telas-media {
+		.btn-media-upload {
+			margin-top:0px;
+			border:0px;
+		}
+	}
+	.telas-media-vertical-cima {
+		border:0px;
+		height:200px;
+	}
+	.telas-media-vertical-baixo {
+		height:200px;
+		border-width:5px 0px 0px 0px;
+	}
+}
+.telas-media-vertical-cima {
+	height:230px;
+}
+
+
+// 
+// // Styles for the wp-admin // // 
+// 
+
+#wpfooter #footer-left img {
+    height: 1.2em;
+    width: auto;
+    margin-right: 0.5em;
+}
